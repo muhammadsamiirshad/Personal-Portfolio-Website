@@ -20,6 +20,9 @@ export interface Certification {
   date: string;
   image: string;
   url?: string;
+  logo: string; // URL to the logo image
+  badgeImage?: string;
+  hasViewBadge?: boolean;
 }
 
 export interface Education {
@@ -89,8 +92,8 @@ export const projects: Project[] = [
     description: "A modern, responsive portfolio website built with Next.js and Tailwind CSS to showcase my projects and skills.",
     technologies: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
     image: "public/images/projects/portfolio.jpg",
-    githubUrl: "https://github.com/muhammadsamiirshad/portfolio",
-    liveUrl: "https://muhammadsamiirshad.vercel.app",
+    githubUrl: "https://github.com/muhammadsamiirshad/Personal-Portfolio-Website",
+    liveUrl: "https://muhammadsamiirshad.vercel.app/",
   },
   {
     title: "Automated Index Recommendation System",
@@ -100,11 +103,11 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/muhammadsamiirshad/Index-Recommendation-System",
   },
   {
-    title: "E-Commerce Platform",
-    description: "A fully featured e-commerce platform with user authentication, product catalog, shopping cart, and order management.",
-    technologies: ["Next.js", "Node.js", "MongoDB", "Express.js"],
-    image: "/vercel.svg",
-    githubUrl: "https://github.com/muhammadsamiirshad/ecommerce",
+    title: "Apartment Rent Predictor",
+    description: "A sophisticated full-stack machine learning application for apartment rental price prediction and market segmentation.",
+    technologies: ["Next.js", "React.js",  "Typescritpt", "Tailwind CSS", "Python", "FastAPI","SQLite","Scikit-Learn" ],
+    image: "public/images/projects/apartment-rent-predictor.png",
+    githubUrl: "https://github.com/muhammadsamiirshad/Apartment-Rent-Predictor",
   },
 ];
 
@@ -112,24 +115,56 @@ export const certifications: Certification[] = [
   {
     name: "Cisco Certified Ethical Hacker",
     issuer: "Cisco",
-    date: "2023",
-    image: "/images/certifications/ceh.png",
+    date: "2025",
+    logo: "/images/certifications/ethical-hacker.png",
+    image: "/images/certifications/ethical-hacker.png",
     url: "https://drive.google.com/file/d/1UBFeUt3bwOFlC2B9B8HqFFUp9s75g040/view?usp=drive_link",
+    badgeImage: "/images/certifications/ethical-hacker.png",
+    hasViewBadge: true,
+
   },
   {
     name: "Cisco Introduction to Cybersecurity",
     issuer: "Cisco",
-    date: "2023",
-    image: "/images/certifications/cissp.png",
+    date: "2025",
+    logo: "/images/certifications/introduction-to-cybersecurity.png",
+    image: "/images/certifications/introduction-to-cybersecurity.png",
     url: "https://drive.google.com/file/d/1uGh2O55cSeYZxxB5pL6m2Ue3n60WGBX8/view?usp=drive_link",
+    badgeImage: "/images/certifications/introduction-to-cybersecurity.png",
+    hasViewBadge: true,
   },
   {
+    name: "Certificated CSEH+CEH PRO",
+    issuer: "Udemy",
+    date: "2024",
+    logo: "/images/certifications/udemy.jpg",
+    image: "/images/certifications/udemy-ads.jpg",
+    url: "https://www.udemy.com/certificate/UC-e99efe95-f738-4ae9-bd58-61db84b09d93/",
+    badgeImage: "/images/certifications/udemy.jpg",
+    hasViewBadge: false,
+  },
+  {
+    name: "Practical Password Cracking",
+    issuer: "Udemy",
+    date: "2024",
+    logo: "/images/certifications/udemy.jpg",
+    image: "/images/certifications/udemy-ads.jpg",
+    url: "https://www.udemy.com/certificate/UC-ecfefb23-6a85-4857-9b0f-2e5674242ac3/",
+    badgeImage: "/images/certifications/udemy.jpg",
+    hasViewBadge: false,
+  },
+    {
     name: "Master Course: Advertising Strategy 2.0",
     issuer: "Udemy",
-    date: "2023",
-    image: "/images/certifications/oscp.png",
+    date: "2024",
+    logo: "/images/certifications/udemy.jpg",
+    image: "/images/certifications/udemy-ads.jpg",
     url: "https://www.udemy.com/certificate/UC-68642aef-663b-4084-a149-ebb87ea92380/",
+    badgeImage: "/images/certifications/udemy.jpg",
+    hasViewBadge: false,
   },
+   
+  
 ];
 
 export const education: Education[] = [
@@ -167,7 +202,7 @@ export const education: Education[] = [
 
 export const personalInfo: PersonalInfo = {
   name: "Muhammad Sami",
-  shortForm: "MS",
+  shortForm: "SAMI",
   titles: [
     "Full Stack Developer",
     "Ethical Hacker",
@@ -178,7 +213,7 @@ export const personalInfo: PersonalInfo = {
   bio: "Full Stack Developer skilled in Next.js, Node.js, SQLite, and Electron, with experience in building scalable applications. Cisco-certified in Cybersecurity and Ethical Hacking, specializing in penetration testing, network security, and threat analysis.",
   location: "Depalpur, Okara, Pakistan",
   email: "samiirshad825@gmail.com",
-  phone: "",
+  phone: "03066536700",
   socials: [    {
       name: "GitHub",
       url: "https://github.com/muhammadsamiirshad",
@@ -192,14 +227,14 @@ export const personalInfo: PersonalInfo = {
       color: "#0A66C2",
     },
     {      name: "WhatsApp",
-      url: "https://wa.me/yourusername",
+      url: "https://wa.me/+923066536700",
       icon: "SiWhatsapp",
       color: "#25D366",
     },
     {
-      name: "Facebook",
-      url: "https://facebook.com/yourusername",
-      icon: "SiFacebook",
+      name: "Instagram",
+      url: "https://instagram.com/samii_irshad",
+      icon: "SiInstagram",
       color: "#1877F2",
     },
   ],
