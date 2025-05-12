@@ -1,0 +1,1 @@
+import * as BI from 'react-icons/bi'; console.log(Object.keys(BI).filter(key => key.toLowerCase().includes('code') || key.toLowerCase().includes('dev') || key.toLowerCase().includes('data') || key.toLowerCase().includes('computer')).slice(0, 20));

@@ -1,0 +1,1 @@
+const fs = require('fs'); const path = require('path'); try { const DiModule = require('react-icons/di'); console.log('Available DevIcons for our technologies:'); console.log('React:', !!DiModule.DiReact); console.log('Python:', !!DiModule.DiPython); console.log('MongoDB:', !!DiModule.DiMongodb); console.log('NodeJS:', !!DiModule.DiNodejs); } catch (e) { console.error(e); }

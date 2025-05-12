@@ -1,0 +1,5 @@
+<!-- placeholder certification image -->
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#1e293b" />
+  <path d="M100,30 L130,90 L200,90 L140,130 L160,200 L100,160 L40,200 L60,130 L0,90 L70,90 Z" fill="#ec4899" />
+</svg>

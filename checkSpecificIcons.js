@@ -1,0 +1,1 @@
+import * as SI from 'react-icons/si'; console.log('SiTypescript exists:', !!SI.SiTypescript); console.log('SiAmazonaws exists:', !!SI.SiAmazonaws); console.log('SiAmazon exists:', !!SI.SiAmazon); console.log('SiAws exists:', !!SI.SiAws);

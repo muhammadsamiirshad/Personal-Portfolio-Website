@@ -1,0 +1,6 @@
+<!-- placeholder project image -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1e293b" />
+  <rect x="50" y="50" width="300" height="200" fill="#0f172a" stroke="#06b6d4" stroke-width="2" />
+  <text x="50%" y="50%" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#06b6d4">Secure Cloud Gateway</text>
+</svg>

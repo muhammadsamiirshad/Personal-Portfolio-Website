@@ -1,0 +1,1 @@
+import * as SI from 'react-icons/si'; console.log('SiNextdotjs exists:', !!SI.SiNextdotjs); console.log('SiNodedotjs exists:', !!SI.SiNodedotjs); console.log('SiKalilinux exists:', !!SI.SiKalilinux); console.log('SiSecurityscorecard exists:', !!SI.SiSecurityscorecard); console.log('SiOpenssl exists:', !!SI.SiOpenssl);

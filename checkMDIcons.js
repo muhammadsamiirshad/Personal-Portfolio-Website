@@ -1,0 +1,1 @@
+import * as MD from 'react-icons/md'; console.log(Object.keys(MD).filter(key => key.toLowerCase().includes('code') || key.toLowerCase().includes('dev') || key.toLowerCase().includes('data') || key.toLowerCase().includes('computer')).slice(0, 20));
